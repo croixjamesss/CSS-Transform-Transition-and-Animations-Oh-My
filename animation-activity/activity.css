@@ -29,15 +29,20 @@ nav {
 
 @keyframes top {
   from {}
-  to {}
+  to {rotate: 43deg; 
+      transform: translateX(24px) translateY(24px);
+  }
+  
 }
 
 @keyframes middle {
   from {}
-  to {}
+  to {background-color: mediumvioletred;}
 }
 
 @keyframes bottom {
   from {}
-  to {}
+  to {rotate: -43deg;
+      transform: translateX(24px) translateY(-24px);
+  }
 }
